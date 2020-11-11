@@ -1,0 +1,108 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+#toPDF{
+    width: 1000px;
+    display: table;
+    margin: 0 auto;
+}
+h1 {
+    width: 99%;
+    color: #333333;
+    font-size: 24px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-variant:small-caps;
+}
+
+h2{
+    width: 100%;
+    color: #000000;
+    font-size: 13px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-variant:small-caps;
+    border: none;
+}
+
+table{
+    border: solid;
+    border-color: #A4A4A4;
+    border-spacing: 10px;
+    border-collapse: separate;
+    width: 1000px;
+}
+
+textarea{
+    width: 99%;
+}
+
+#requerente td, #representante td, #outramorada td, #pedido td{
+    border: none;
+}
+
+.inputstyle{
+    padding:8px;
+    display:block;
+    border:none;
+    border-bottom:1px solid #ccc;
+    width:100%;
+}
+.checkboxstyle{
+    width:24px;
+    height:24px;
+    position:relative;
+    top:6px
+}
+.borda{
+    border:none;
+    border-bottom:1px solid #ccc;
+}
+#moradarecolha{
+    display: none;
+}
+#requerente{
+    display: none; 
+}   
+#representante{
+    display: none;
+}
+#notisingular{
+    display: none;
+}
+#outramorada{
+    display: none;
+}
+#assinaturafun{
+    display: none;
+}
+input[type=text]{outline:none}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #00FF00}
+  
+  .button:active {
+    background-color: #000000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .footer{
+    border:none;
+}
